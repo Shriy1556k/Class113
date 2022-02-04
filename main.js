@@ -26,5 +26,5 @@ function take_snapshot()
 
 function filter_tint()
 {
-    tint_color = document.getElementById("color_name");
+    tint_color = document.getElementById("color_name").value;
 }
